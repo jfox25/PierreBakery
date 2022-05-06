@@ -1,4 +1,3 @@
-using System;
 namespace BreadLoaf
 {
   public class Bread : FoodItem
