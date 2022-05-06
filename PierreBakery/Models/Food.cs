@@ -1,8 +1,10 @@
+using System.Collections.Generic;
 public abstract class FoodItem
 {
    public abstract int Count { get; set; }  
    public abstract int Cost { get; set; }  
    public abstract int DiscountRate { get; set; }  
+   public static int orderTotal = 0;
 
     public FoodItem(int count, int cost, int discountRate)
     {
@@ -31,6 +33,11 @@ public abstract class FoodItem
         }
       }
       return total;
+   }
+   public static int UpdateOrderTotal(int total)
+   {
+     orderTotal += total;
+     return orderTotal;
    }
    
 }
