@@ -19,10 +19,23 @@ namespace BreadLoaf.Tests
       Assert.AreEqual(3, bread.ReturnCost());
     }
     [TestMethod]
-    public void CalculateCost_ReturnCostofBreads_int()
+    public void CalculateCost_CalculateCostOf6Breads_int()
     {
       Bread bread = new Bread(6, 5, 0);
       Assert.AreEqual(20, bread.CalculateCost());
+    }
+    [TestMethod]
+    public void CalculateCost_CalculateCostOf10Breads_int()
+    {
+      Bread bread = new Bread(10, 5, 0);
+      Assert.AreEqual(35, bread.CalculateCost());
+    }
+    [TestMethod]
+    public void OrderTotal_ReturnOrderTotal_int()
+    {
+      int total = 40;
+      int newTotal = FoodItem.UpdateOrderTotal(total);
+      Assert.AreEqual(40, newTotal);
     }
   }
 }

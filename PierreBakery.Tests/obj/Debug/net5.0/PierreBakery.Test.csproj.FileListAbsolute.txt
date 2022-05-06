@@ -98,3 +98,6 @@
 /Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery.Tests/obj/Debug/net5.0/ref/PierreBakery.Test.dll
 /Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery.Tests/obj/Debug/net5.0/PierreBakery.Test.pdb
 /Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery.Tests/obj/Debug/net5.0/PierreBakery.Test.genruntimeconfig.cache
+/Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery.Tests/bin/Debug/net5.0/PierreBakery.deps.json
+/Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery.Tests/bin/Debug/net5.0/PierreBakery.runtimeconfig.json
+/Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery.Tests/bin/Debug/net5.0/PierreBakery.runtimeconfig.dev.json

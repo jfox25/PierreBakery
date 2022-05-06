@@ -39,5 +39,4 @@ public abstract class FoodItem
      orderTotal += total;
      return orderTotal;
    }
-   
 }
