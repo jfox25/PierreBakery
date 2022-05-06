@@ -19,10 +19,16 @@ namespace PastryItem.Tests
       Assert.AreEqual(2, pastry.ReturnCost());
     }
     [TestMethod]
-    public void CalculateCost_CalculateCostofPastryItems_int()
+    public void CalculateCost_CalculateCostofPastryItems6_int()
     {
       Pastry pastry = new Pastry(6, 2, 1);
       Assert.AreEqual(10, pastry.CalculateCost());
+    }
+    [TestMethod]
+    public void CalculateCost_CalculateCostofPastryItems10_int()
+    {
+      Pastry pastry = new Pastry(10, 2, 1);
+      Assert.AreEqual(17, pastry.CalculateCost());
     }
   }
 }

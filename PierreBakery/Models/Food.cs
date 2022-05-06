@@ -2,13 +2,13 @@ public abstract class FoodItem
 {
    public abstract int Count { get; set; }  
    public abstract int Cost { get; set; }  
-   public abstract int Discount { get; set; }  
+   public abstract int DiscountRate { get; set; }  
 
-    public FoodItem(int count, int cost, int discount)
+    public FoodItem(int count, int cost, int discountRate)
     {
         Count = count;
         Cost = cost;
-        Discount = discount;
+        DiscountRate = discountRate;
     }
    public int ReturnCount()
    {
@@ -27,7 +27,7 @@ public abstract class FoodItem
         {
           total += Cost;
         }else{
-          total += Discount;
+          total += DiscountRate;
         }
       }
       return total;

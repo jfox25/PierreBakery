@@ -5,7 +5,7 @@ namespace BreadLoaf
   {
     public override int Count { get; set; }
     public override int Cost { get; set; }
-    public override int Discount { get; set; }
-    public Bread(int count, int cost, int discount) : base(count, cost, discount){}
+    public override int DiscountRate { get; set; }
+    public Bread(int count, int cost, int discountRate) : base(count, cost, discountRate){}
   }
 }
