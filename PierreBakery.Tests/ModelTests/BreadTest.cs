@@ -1,6 +1,7 @@
 using System;
 using BreadLoaf;
-namespace Bread.Tests
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+namespace BreadLoaf.Tests
 {
   [TestClass]
   public class BreadTest
@@ -8,8 +9,8 @@ namespace Bread.Tests
     [TestMethod]
     public void ReturnCount_GetsDayOfWeek_int()
     {
-      Bread bread = new Bread(5, 10);
-      Assert.AreEqual(5, bread.ReturnCount);
+      Bread bread = new Bread(5);
+      Assert.AreEqual(5, bread.ReturnCount());
     }
   }
 }

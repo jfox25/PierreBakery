@@ -3,3 +3,10 @@
 /Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.AssemblyInfoInputs.cache
 /Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.AssemblyInfo.cs
 /Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.csproj.CoreCompileInputs.cache
+/Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery/bin/Debug/net5.0/PierreBakery.deps.json
+/Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery/bin/Debug/net5.0/PierreBakery.dll
+/Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery/bin/Debug/net5.0/ref/PierreBakery.dll
+/Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery/bin/Debug/net5.0/PierreBakery.pdb
+/Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.dll
+/Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/ref/PierreBakery.dll
+/Users/jamesfox/Desktop/Epicodus/PierreBakery.Solution/PierreBakery/obj/Debug/net5.0/PierreBakery.pdb
