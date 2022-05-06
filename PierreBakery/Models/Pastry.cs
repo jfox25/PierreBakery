@@ -4,11 +4,8 @@ namespace PastryItem
   {
     public override int Count { get; set; }
     public override int Cost { get; set; }
-    public Pastry(int count, int cost) : base(count, cost){}
-     public override int CalculateCost()
-    {
-      return Cost;
-    }
+    public override int Discount { get; set; }
+    public Pastry(int count, int cost, int discount) : base(count, cost, discount){}
+ 
   }
-  
 }
